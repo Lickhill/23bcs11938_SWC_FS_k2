@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix reactClassWork run dev",
+    "build": "npm --prefix reactClassWork run build",
+    "lint": "npm --prefix reactClassWork run lint",
+    "preview": "npm --prefix reactClassWork run preview"
+  }
+}
