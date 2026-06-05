@@ -1,6 +1,8 @@
 import { useState } from 'react'
 
+
 import './App.css'
+import MapAndReducerAndFilter from './MapAndReducerAndFilter'
 
 function App() {
   const [count, setCount] = useState(1)
@@ -28,11 +30,12 @@ function App() {
   const[input,setInput] = useState("")
 
   return (
+
     <>
+    <MapAndReducerAndFilter/>
       <h1>{count}</h1>
       
       <button onClick={() => {
-        
         setButtonClicks(buttonClicks + 1)
         if(buttonClicks % 3 === 0){
           setCount(2 * count)
